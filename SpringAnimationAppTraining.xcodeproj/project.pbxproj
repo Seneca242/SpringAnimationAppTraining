@@ -67,17 +67,65 @@
 		0418763326B99AF10087387F /* SpringAnimationAppTraining */ = {
 			isa = PBXGroup;
 			children = (
-				0418763426B99AF10087387F /* AppDelegate.swift */,
-				0418763626B99AF10087387F /* SceneDelegate.swift */,
-				0418763826B99AF10087387F /* ViewController.swift */,
-				0418764826BAEF9E0087387F /* DataManager.swift */,
-				0418764A26BAEFB20087387F /* AnimationModel.swift */,
-				0418763A26B99AF10087387F /* Main.storyboard */,
-				0418763D26B99AF20087387F /* Assets.xcassets */,
-				0418763F26B99AF20087387F /* LaunchScreen.storyboard */,
-				0418764226B99AF20087387F /* Info.plist */,
+				0418764C26BB33550087387F /* ViewControllers */,
+				0418764E26BB337E0087387F /* Models */,
+				0418764D26BB336B0087387F /* ServiceLayers */,
+				0418764F26BB33AB0087387F /* Storyboards */,
+				0418765026BB33C90087387F /* SupportFiles */,
+				0418765126BB33FC0087387F /* Resources */,
 			);
 			path = SpringAnimationAppTraining;
+			sourceTree = "<group>";
+		};
+		0418764C26BB33550087387F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0418763826B99AF10087387F /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0418764D26BB336B0087387F /* ServiceLayers */ = {
+			isa = PBXGroup;
+			children = (
+				0418764826BAEF9E0087387F /* DataManager.swift */,
+			);
+			path = ServiceLayers;
+			sourceTree = "<group>";
+		};
+		0418764E26BB337E0087387F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0418764A26BAEFB20087387F /* AnimationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0418764F26BB33AB0087387F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0418763A26B99AF10087387F /* Main.storyboard */,
+				0418763F26B99AF20087387F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0418765026BB33C90087387F /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0418763426B99AF10087387F /* AppDelegate.swift */,
+				0418763626B99AF10087387F /* SceneDelegate.swift */,
+				0418764226B99AF20087387F /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		0418765126BB33FC0087387F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0418763D26B99AF20087387F /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		09D0B346E520A40C5D150F09 /* Pods */ = {
@@ -364,7 +412,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SpringAnimationAppTraining/Info.plist;
+				INFOPLIST_FILE = SpringAnimationAppTraining/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,7 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SpringAnimationAppTraining/Info.plist;
+				INFOPLIST_FILE = SpringAnimationAppTraining/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
